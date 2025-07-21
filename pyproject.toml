@@ -1,13 +1,13 @@
 [project]
 name = "phis-login"
-version = "2025.7.21.2"
+version = "2025.7.21.3"
 description = "auto login for PHIS"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ddddocr>=1.5.6",
     "phis-config>=2025.7.21.2",
-    "soda-kapybara>=2025.7.21.2",
+    "soda-kapybara>=2025.7.21.0",
 ]
 
 [build-system]

@@ -1,6 +1,6 @@
 [project]
 name = "phis-login"
-version = "2025.7.21.4"
+version = "2025.7.21.5"
 description = "auto login for PHIS"
 readme = "README.md"
 requires-python = ">=3.12"

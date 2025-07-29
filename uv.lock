@@ -413,16 +413,16 @@ wheels = [
 
 [[package]]
 name = "phis-config"
-version = "2025.7.28.0"
+version = "2025.7.29.3"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f6/04/55dc74ed3a67ff1b07c263063ab4a6eb564f076a15137a384c8d9d202e77/phis_config-2025.7.28.0.tar.gz", hash = "sha256:e3d07550fc2426fa32c03e89e9151ba33b37959a802a33ec735c3f91d618a3da", size = 17315, upload-time = "2025-07-28T02:14:22.503Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/12/105de7418eaa338844cc3acd604f8244f2733de892a5aa6acdef827f9c37/phis_config-2025.7.29.3.tar.gz", hash = "sha256:d849ce56df1a370860ec6a9b288c2ccafb24f2b4a14db6c00c8567f6f226bf4e", size = 17835, upload-time = "2025-07-29T08:19:18.09Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4e/79/7c22e3a60f46b6b21fd43deda7ac3ed1842e2f13dbc89d9e3a0e925a00e4/phis_config-2025.7.28.0-py3-none-any.whl", hash = "sha256:93ae49461d692aad363565f9f60009210bf7c068c7c635db34e7d8099a78de44", size = 16787, upload-time = "2025-07-28T02:14:21.466Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/8c/6b63ed80268cfeecb9c8b8dca6f29602cde6f428f2bce3b0eaa43a49b163/phis_config-2025.7.29.3-py3-none-any.whl", hash = "sha256:90b7bf1fd0323b82f242edb02b75bf4bb4b7a2779187add4040b0e592f985619", size = 17784, upload-time = "2025-07-29T08:19:16.899Z" },
 ]
 
 [[package]]
 name = "phis-login"
-version = "2025.7.21.5"
+version = "2025.7.29.0"
 source = { editable = "." }
 dependencies = [
     { name = "ddddocr" },
@@ -435,7 +435,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "ddddocr", specifier = ">=1.5.6" },
-    { name = "phis-config", specifier = ">=2025.7.28.0" },
+    { name = "phis-config", specifier = ">=2025.7.29.3" },
     { name = "pytest", specifier = ">=8.4.1" },
     { name = "pyyaml", specifier = ">=6.0.2" },
     { name = "soda-kapybara", specifier = ">=2025.7.28.0" },

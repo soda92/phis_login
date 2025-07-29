@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ddddocr>=1.5.6",
-    "phis-config>=2025.7.21.1",
-    "soda-kapybara>=2025.7.21.0",
+    "phis-config>=2025.7.28.0",
+    "pytest>=8.4.1",
+    "pyyaml>=6.0.2",
+    "soda-kapybara>=2025.7.28.0",
 ]
 
 [build-system]

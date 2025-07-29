@@ -20,8 +20,9 @@ def 登录医生工作站(username: str, password: str):
     captcha_element = FormElement('验证码', 'img')
     captcha_element.element.screenshot('captcha.png')
 
-    ocr = ddddocr.DdddOcr()
+    ocr = ddddocr.DdddOcr(show_ad=False)
     img_bytes = Path('captcha.png').read_bytes()
+    Path("captcha.img").unlink(missing_ok=True)
     res = ocr.classification(img_bytes)
     logging.info('识别出的验证码为：' + res)
     FormElement('验证码输入', 'verifyCode').set_value(res)

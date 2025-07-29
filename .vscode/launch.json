@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "test_main: 广宁",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test_main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "hospital": "广宁",
+            }
+        },
+        {
+            "name": "test_main: 西罗园",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test_main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "hospital": "西罗园",
+            }
+        }
+    ]
+}

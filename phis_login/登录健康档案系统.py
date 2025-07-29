@@ -3,10 +3,9 @@ from kapybara import WebDriver, shared_data
 from kapybara.form_element import FormElement
 from phis_login.gui_error import gui_error
 from phis_login.登录医生工作站 import 登录医生工作站
-from phis_config import AdminConfig
-
 
 def 登录健康档案系统():
+    from phis_config import AdminConfig
     url = AdminConfig.登录网址
     account = AdminConfig.登录用户名
     password = AdminConfig.登录密码
